@@ -18,7 +18,18 @@ LibreMind is a 3D AI mental wellness chatbot featuring a decoupled Python FastAP
 * **Data & Cache:** PostgreSQL (Supabase), Redis
 * **Frontend:** Next.js, React Three Fiber (WebGL)
 
+## Architecture Documentation
+Explore the detailed system design, pipelines, and data models:
+* [System Overview & Architecture](./docs/01_architecture/01_system_overview.md)
+* [Authentication & BFF Security Flow](./docs/01_architecture/02_auth_flow.md)
+* [Message Pipeline & Lifecycle](./docs/01_architecture/03_message_pipeline.md)
+* [Database Models & ERD](./docs/01_architecture/04_data_models.md)
+* [Dual-Layer Risk & Escalation Engine](./docs/02_features/03_risk_escalation.md)
+* [API Endpoints & Orchestration](./docs/03_api/endpoints.md)
+* [AI Guardrails & Prompt Safety](./docs/03_api/guardrails.md)
+
 ## Architecture Tree
+
 ```text
 .
 ├── backend/                  # FastAPI Intelligence & Orchestration Layer
@@ -36,3 +47,10 @@ LibreMind is a 3D AI mental wellness chatbot featuring a decoupled Python FastAP
 ├── docs/                     # System Architecture & Data Models
 ├── frontend/                 # Next.js & React Three Fiber UI (Proprietary)
 └── supabase/                 # PostgreSQL Schemas & Edge Functions
+```
+
+## Author
+**Partho Mal**
+* **Portfolio:** [parthomal.vercel.app](https://parthomal.vercel.app)
+* **LinkedIn:** [linkedin.com/in/parthomal](https://www.linkedin.com/in/parthomal)
+* **Email:** Parthomal7@gmail.com
